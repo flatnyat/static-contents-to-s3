@@ -1,0 +1,22 @@
+{
+  "name": "static-contents-to-s3",
+  "version": "1.0.0",
+  "main": "handler.js",
+  "author": "RyoheiTakagi",
+  "license": "MIT",
+  "scripts": {
+    "invoke-deploy": "node_modules/.bin/sls invoke local -f deploy -p event.json",
+    "invoke-cache": "node_modules/.bin/sls invoke local -f cache -p event.json",
+    "deploy": "node_modules/.bin/sls deploy -v",
+    "remove": "node_modules/.bin/sls remove -v"
+  },
+  "devDependencies": {
+    "aws-sdk": "^2.517.0",
+    "serverless": "^1.50.0",
+    "serverless-dotenv-plugin": "^2.1.1"
+  },
+  "dependencies": {
+    "mime-types": "^2.1.24",
+    "node-zip": "^1.1.1"
+  }
+}

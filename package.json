@@ -1,7 +1,7 @@
 {
   "name": "static-contents-to-s3",
   "version": "1.0.0",
-  "main": "handler.js",
+  "main": "pipeline.js",
   "author": "RyoheiTakagi",
   "license": "MIT",
   "scripts": {

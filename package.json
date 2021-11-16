@@ -11,7 +11,7 @@
     "remove": "node_modules/.bin/sls remove -v"
   },
   "devDependencies": {
-    "aws-sdk": "^2.517.0",
+    "aws-sdk": "^2.814.0",
     "serverless": "^1.50.0",
     "serverless-dotenv-plugin": "^2.1.1"
   },
